@@ -6,7 +6,7 @@ This is a quick demo of some handy things you can add to a Jekyll site.
 
 View the [source code on GitHub](https://github.com/derekkedziora/jekyll-demo). 
 
-Check out my [main site](https://derekkedziora.com) or reach out to me at derekkedziora@icloud.com 
+Check out my [blog](https://derekkedziora.com) or get in touch at derekkedziora@icloud.com 
 
 ## Dark Mode Switch 
 
