@@ -10,7 +10,7 @@ Check out my [blog](https://derekkedziora.com) or get in touch at derekkedziora@
 
 ## Dark Mode Switch 
 
-Read the [blog post](https://derekkedziora.com/blog/dark-mode-revisited) explaining how to add a dark mode switch to your Jekyll site. 
+Read [my guide to dark mode](https://derekkedziora.com/blog/dark-mode-revisited) to see how I created the dark mode switch on this Jekyll site. 
 
 Make sure you have the mode toggle on each page, otherwise you'll always display the system color preference.
 

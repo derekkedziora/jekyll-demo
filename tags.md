@@ -13,11 +13,9 @@ permalink: /tags
 
 <div style="min-height: 100vh;" markdown="1">
 
-<ul>
 {% for listOfTag in listOfTags %}
-  <li><a href="#{{listOfTag}}">{{listOfTag | replace: "-", " "}}</a></li>
+  <p><a href="#{{listOfTag}}">{{listOfTag | replace: "-", " "}}</a></p>
 {% endfor %}
-</ul>
 
 You can style the tag menu and each tag section with `min-height: 100vh;`
 
@@ -32,12 +30,11 @@ Back to the [main page](/).
 {% for listOfTag in listOfTags %}
 <div style="min-height: 100vh;">
 <h3 id='{{listOfTag}}'>{{listOfTag | replace: "-", " "}}</h3>
+
 {% for post in site.posts %}
-<ul>
 {% if post.tags contains listOfTag %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
+<p><a href="{{post.url}}">{{post.title}}</a></p>
 {% endif %}
-</ul>
 {% endfor %}
 <a href="#">Back to all tags</a>
 </div>

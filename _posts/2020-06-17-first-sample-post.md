@@ -4,6 +4,6 @@ tags:
  - penguins
 ---
 
-Love penguins too? Read about them on [Wikipedia](https://en.wikipedia.org/wiki/Penguin).  
+Love penguins too? [Follow Wellington on Twitter](https://twitter.com/shedd_aquarium).
 
 Back to the [main page](/) or maybe a [random post](/random)? 
