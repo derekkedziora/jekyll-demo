@@ -4,8 +4,7 @@ For other people using Jekyll this is a demo of how to:
 2. Create a random post link 
 3. Add a tag page
 
-If you have any questions, suggestions or just want to get in touch, stop by [my blog](https://derekkedziora.com) or write to me at derekkedziora@icloud.com
-
+If you have any questions, suggestions or just want to get in touch, stop by [my blog](https://derekkedziora.com).
 
 ## Creative Commons 
 
