@@ -14,7 +14,7 @@ Read the [blog post](https://derekkedziora.com/blog/dark-mode-revisited) explain
 
 ## Random Post 
 
-You can build a random post link using client side JavaScript! Here's [how to do it](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll). 
+You can build a random post link using client side JavaScript! Here's [how to do it](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll), or you can go to a [random sample post](/random). 
 
 ## Sample Blog Posts 
 
