@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Jekyll">
+    <link rel='stylesheet' type='text/css' href='/css/main.css'>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="Derek Kedziora">
+    <link rel="canonical" href="{{ page.url }}">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{{ site.title }}"/>
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {%- if page.updated-date -%}
+    <meta property="article:modified_time" content="{{ page.updated-date }}" />
+    {%- endif -%}
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}"/>
+    <meta name="twitter:description" content="{%- if page.description -%}{{ page.description | truncate: 140 }}{%- else -%}{{ site.description | truncate: 140  }}{%- endif -%}"/>
+</head>
+
+<body>
+
+<article>
+
+<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+</article>
+
+<footer>
+    
+</footer>
+
+<script src="/scripts/mode-switcher.js"></script>
+
+</body>
+
+</html>
