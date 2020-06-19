@@ -5,7 +5,7 @@ description: "A Jekyll demo site with a dark mode switch and random post feature
 github: derekkedziora
 markdown: kramdown
 parse_block_html: false
-url: 
+url: https://derekkedziora.github.io
 defaults:
   -
     scope:
