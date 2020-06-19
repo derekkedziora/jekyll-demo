@@ -12,11 +12,20 @@ Check out my [blog](https://derekkedziora.com) or get in touch at derekkedziora@
 
 Read the [blog post](https://derekkedziora.com/blog/dark-mode-revisited) explaining how to add a dark mode switch to your Jekyll site. 
 
+Make sure you have the mode toggle on each page, otherwise you'll always display the system color preference.
+
 ## Random Post 
 
 You can build a random post link using client side JavaScript! Here's [how to do it](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll), or you can go to a [random sample post](/random). 
 
-## Sample Blog Posts 
+
+## Tag Page 
+
+Jekyll doesn't have a built-in tag page, but it's easy to make your own. Here' my guide to [making a tag page](https://derekkedziora.com/blog/tag-page-jekyll).
+
+Here's my [demo tag page](/tags).
+
+## Demo Blog Posts 
 
 {% for post in site.posts %}
 

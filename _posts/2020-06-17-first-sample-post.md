@@ -1,9 +1,9 @@
 ---
-title: The First Sample Post 
+title: All About Penguins 
+tags: 
+ - penguins
 ---
 
-Enjoying my blog? Check out my other posts too!
-
-Make sure you have the mode toggle on each page, otherwise you'll always display the system color preference.
+Love penguins too? Read about them on [Wikipedia](https://en.wikipedia.org/wiki/Penguin).  
 
 Back to the [main page](/) or maybe a [random post](/random)? 

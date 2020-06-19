@@ -1,8 +1,11 @@
 ---
-title: The Second Sample Post 
+title: Water Fowl
+tags: 
+ - geese
+ - penguins 
 ---
 
-Make sure you have the mode toggle on each page, otherwise you'll always display the system color preference.
+This is a blog post mostly about geese. I'll also mention penguins!
 
 Back to the [main page](/) or maybe a [random post](/random)? 
 

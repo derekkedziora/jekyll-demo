@@ -34,15 +34,9 @@ Use liquid to get an the number of posts in the site
       "{{ site.url }}{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}
     {%- endunless -%}
     {%- endfor -%}];
-  
-  const allPostsFiltered = allPosts.filter(URLfilter);
-  
-  function URLfilter(value) {
-    return value !== comingFromPost;
-  }
 
   function linkToRandomBlogPost() {
-      const randomPostLink = allPostsFiltered[Math.floor(Math.random() * allPostsFiltered.length)];
+      const randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
       return randomPostLink;
   }
 
