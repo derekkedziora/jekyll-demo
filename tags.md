@@ -3,19 +3,7 @@ title: Tag Page
 permalink: /tags
 ---
 
-{% for tag in site.tags %}
-  {% assign placeHolderTag = tag | first %}
-  {% assign listOfTags = listOfTags | append: placeHolderTag %}
-  {% assign listOfTags = listOfTags | append: ',' %}
-{% endfor %}
-
-{% assign listOfTags = listOfTags | split: ',' | sort_natural %}
-
-<div style="min-height: 100vh;" markdown="1">
-
-{% for listOfTag in listOfTags %}
-  <p><a href="#{{listOfTag}}">{{listOfTag | replace: "-", " "}}</a></p>
-{% endfor %}
+<div markdown=1 style="min-height: 100vh;">
 
 You can style the tag menu and each tag section with `min-height: 100vh;`
 
@@ -25,17 +13,30 @@ Check out my full guide to [making a tag page in Jekyll](https://derekkedziora.c
 
 Back to the [main page](/).
 
-</div>
 
-{% for listOfTag in listOfTags %}
-<div style="min-height: 100vh;">
-<h3 id='{{listOfTag}}'>{{listOfTag | replace: "-", " "}}</h3>
+{% for tag in site.tags %}
 
-{% for post in site.posts %}
-{% if post.tags contains listOfTag %}
-<p><a href="{{post.url}}">{{post.title}}</a></p>
-{% endif %}
+[{{ tag[0] }}&nbsp;({{ tag[1] | size }})](#{{tag[0]}})
+
 {% endfor %}
-<a href="#">Back to all tags</a>
+
 </div>
+
+
+{% for tag in site.tags %}
+
+<div markdown=1 style="min-height: 100vh;">
+
+## {{tag[0]}}
+
+{% for post in tag[1] %}
+
+[{{ post.title }}]({{ post.url }})
+
+{% endfor %}
+
+[All Tags &#8593;](#)
+
+</div>
+
 {% endfor %}
