@@ -12,3 +12,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll-feed
+
+feed: 
+  categories:
+    - now

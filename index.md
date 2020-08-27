@@ -16,8 +16,11 @@ Make sure you have the mode toggle on each page, otherwise you'll always display
 
 ## Random Post 
 
-You can build a random post link using client side JavaScript! Here's [how to do it](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll), or you can go to a [random sample post](/random). 
+You can build a random post link using client side JavaScript! Here's [how to do it](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll), or you can go to a [random post](/random). 
 
+## Now Page 
+
+Check out my dynamic [now page](/now).
 
 ## Tag Page 
 
@@ -28,7 +31,9 @@ Here's my [demo tag page](/tags).
 ## Demo Blog Posts 
 
 {% for post in site.posts %}
+{% unless post.categories contains now %}
 
 [{{ post.title }}]({{ post.url }})
 
+{% endunless %}
 {% endfor %}
