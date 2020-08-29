@@ -29,3 +29,5 @@ The only code on the static `now.md` you need to display the most recent now pos
 ```
 {% raw %}{{ site.categories.now[0].content }}{% endraw %}
 ```
+
+Back to the [main page](/) or maybe a [random post](/random)? 

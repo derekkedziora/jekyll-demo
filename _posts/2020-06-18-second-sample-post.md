@@ -11,4 +11,3 @@ Think geese and penguins never cross paths? [They do](https://www.flickr.com/pho
 
 Back to the [main page](/) or maybe a [random post](/random)? 
 
-Thanks for reading my second great post!
