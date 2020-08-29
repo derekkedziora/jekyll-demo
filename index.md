@@ -31,7 +31,7 @@ Here's my [demo tag page](/tags).
 ## Demo Blog Posts 
 
 {% for post in site.posts %}
-{% post.categories contains "now" %}
+{% unless post.categories contains "now" %}
 
 [{{ post.title }}]({{ post.url }})
 
