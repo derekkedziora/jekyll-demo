@@ -1,11 +1,11 @@
 title: "A Dark and Random Jekyll Demo" 
 author: Derek Kedziora
-email: "derekkedziora@icloud.com"
+email: "example@example.com"
 description: "A Jekyll demo site with a dark mode switch and random post feature"
 github: derekkedziora
 markdown: kramdown
 parse_block_html: false
-url: https://demo.derekkedziora.com/
+url: https://derekkedziora.github.io/jekyll-demo/
 defaults:
   -
     scope:
